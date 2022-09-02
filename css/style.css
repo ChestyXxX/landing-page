@@ -135,4 +135,10 @@ li {
     font-weight: 700;
     font-size: 24px;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 125px;
+}
+
+.footer {
+    color: #F9FAF8;
 }
