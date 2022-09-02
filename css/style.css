@@ -33,13 +33,13 @@
     font-weight: bold;
     color: #F9FAF8;
     margin-top: 16px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-bottom: 50px;
 }
 
 .header.links {
     margin-top: 16px;
-    margin-right: 200px;
+    margin-right: 150px;
     margin-bottom: 50px;
 }
 
@@ -52,6 +52,10 @@ button,
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-section {
@@ -70,12 +74,23 @@ button,
 }
 
 .header.image {
-    margin-right: 200px;
+    margin-right: 150px;
     margin-bottom: 100px;
 }
 
 .body.images img {
-    height: auto;
+    height: 250px;
+    width: 150px;
+}
+
+.yonkos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.body.images {
+    flex-wrap: wrap;
     width: 150px;
 }
 
@@ -103,7 +118,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 
@@ -114,4 +129,10 @@ li {
     border-radius: 25px;
     margin-top: 8px;
     margin-bottom: 100px;
+}
+
+.body.text {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
 }
