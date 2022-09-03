@@ -58,7 +58,8 @@ a {
 
 .header.secondary-text {
     padding: 0;
-    margin-bottom: 8px;
+    width: 500px;
+    margin-bottom: 16px;
 }
 
 .header.button {
@@ -105,6 +106,10 @@ a {
 
 .body {
     padding: 50px 300px 100px 300px;
+}
+
+li {
+    list-style: none;
 }
 
 .body.information {
@@ -212,7 +217,7 @@ button,
 }
 
 .invite-people.button button {
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-color: white;
     color: white;
     border-radius: 8px;
